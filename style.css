@@ -15,3 +15,45 @@ nav a {
     color: rgb(0, 255, 115);
     padding: 20px;
 }
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+    justify-items: center; 
+    align-items: center; 
+}
+
+.card {
+    border: deepskyblue;
+    padding: 15px;
+    background-color:deepskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #333;
+}
+
+footer {
+    background-color: rgb(219, 216, 216);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
